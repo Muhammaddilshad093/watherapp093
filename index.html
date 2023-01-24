@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast App</title>
+</head>
+
+<body>
+    <div class="app-main">
+        <div class="searchInputBox">
+            <input type="text" id="input-box" class="input-box" placeholder="Enter city name..." autocomplete="off">
+
+  
+            
+        </div>
+
+        <div class="weather-body"> 
+            <div class="location-details">
+                <div class="city" id="city">Amravati, IN</div>
+                <div class="date" id="date">10 June (Wednesday), 2020</div>
+            </div>
+
+            <div class="weather-status">
+                <div class="temp" id="temp">34&deg;C</div>
+                <div class="min-max" id="min-max">32&deg;C (min) / 34&deg;C (max)</div>
+                <div class="weather" id="weather">Clear</div>
+                <div id="img"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="weatherContainer">
+        <div id="iconsContainer">
+            <div class="icons">
+                <p class="weather" id="day1"></p>
+                <div class="image"><img src="./icons/clean w.png" class="imgClass" id="img1" alt=""></div>
+                <p class="minvalues" id="day1Min">Loading...</p>
+                <p class="mixvalues" id="day1Mix">Loading...</p>
+            </div>
+
+            <div class="icons">
+                <p class="weather" id="day2"></p>
+                <div class="image"><img src="./icons/clean w.png" class="imgClass" id="img2" alt=""></div>
+                <p class="minvalues" id="day2Min">Loading...</p>
+                <p class="mixvalues" id="day2Mix">Loading...</p>
+            </div>
+
+            <div class="icons">
+                <p class="weather" id="day2"></p>
+                <div class="image"><img src="./icons/clean w.png" class="imgClass" id="img2" alt=""></div>
+                <p class="minvalues" id="day2Min">Loading...</p>
+                <p class="mixvalues" id="day2Mix">Loading...</p>
+            </div>
+
+            <div class="icons">
+                <p class="weather" id="day3"></p>
+                <div class="image"><img src="./icons/clean w.png" class="imgClass" id="img3" alt=""></div>
+                <p class="minvalues" id="day3Min">Loading...</p>
+                <p class="mixvalues" id="day3Mix">Loading...</p>
+            </div>
+
+            <div class="icons">
+                <p class="weather" id="day4"></p>
+                <div class="image"><img src="./icons/clean w.png" class="imgClass" id="img4" alt=""></div>
+                <p class="minvalues" id="day4Min">Loading...</p>
+                <p class="mixvalues" id="day4Mix">Loading...</p>
+            </div>
+
+            <div class="icons">
+                <p class="weather" id="day5"></p>
+                <div class="image"><img src="./icons/clean w.png" class="imgClass" id="img5" alt=""></div>
+                <p class="minvalues" id="day5Min">Loading...</p>
+                <p class="mixvalues" id="day5Mix">Loading...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
